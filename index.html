@@ -65,6 +65,24 @@
       margin: 0;
     }
     .project-links a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    .download-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 0.75rem;
+    }
+    .download-links a {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .download-links a:hover {
+      background: var(--accent-dark);
+    }
     footer {
       text-align: center;
       padding: 1.2rem;
@@ -152,6 +170,15 @@
       <div class="project-links">
         <p><a href="https://github.com/moniqueleiteqa/meusprojetos-qa" target="_blank">📁 Repositório: meusprojetos-qa</a></p>
         <p>Projeto com automação de testes de login utilizando Cypress e JavaScript, com foco em validação de cenários críticos de autenticação.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Baixar currículo</h2>
+      <p>Você pode baixar meu currículo nas versões abaixo:</p>
+      <div class="download-links">
+        <a href="CV_Monique_Leite_QA.docx" download>📄 Baixar em DOCX</a>
+        <a href="diploma%20monique.pdf" download>📑 Baixar em PDF</a>
       </div>
     </section>
 
