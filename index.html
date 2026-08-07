@@ -27,11 +27,67 @@
     header {
       background: linear-gradient(135deg, var(--accent-dark), var(--accent));
       color: white;
-      padding: 3rem 1.5rem;
+      padding: 4rem 1.5rem 3rem;
       text-align: center;
     }
-    header h1 { margin: 0 0 0.5rem; font-size: 2.2rem; }
-    header p { margin: 0 auto 1rem; max-width: 760px; font-size: 1.05rem; opacity: 0.95; }
+    header h1 { margin: 0 0 0.5rem; font-size: 2.6rem; letter-spacing: 0.02em; }
+    header p { margin: 0 auto 1rem; max-width: 760px; font-size: 1.08rem; opacity: 0.97; }
+    .hero-spotlight {
+      max-width: 860px;
+      margin: 1.2rem auto 0;
+      padding: 1rem 1.1rem;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 18px;
+      backdrop-filter: blur(6px);
+    }
+    .hero-spotlight strong {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .hero-spotlight ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.75rem 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+    }
+    .hero-spotlight li {
+      margin: 0;
+      padding: 0.45rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-size: 0.94rem;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+    .hero-actions a {
+      display: inline-block;
+      padding: 0.8rem 1.1rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 800;
+    }
+    .hero-actions .primary {
+      background: white;
+      color: var(--accent-dark);
+    }
+    .hero-actions .secondary {
+      background: rgba(255, 255, 255, 0.14);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
     .hero-links a {
       display: inline-block;
       margin: 0.35rem;
@@ -95,7 +151,21 @@
 <body>
   <header>
     <h1>Monique Leite</h1>
-    <p>QA Engineer | QA Analyst | Testes Manuais | Automação | API Testing | Mobile | Web | Banco de Dados | BDD | Jira | Scrum</p>
+    <p>QA Engineer | QA Analyst | Manual Testing | Test Automation | API Testing | Postman | Cypress | Robot Framework | SQL | Oracle | Mobile Testing | Web Testing | BDD | Jira | Scrum | CI/CD</p>
+    <div class="hero-spotlight">
+      <strong>Currículo em destaque</strong>
+      <p>Profissional de QA com trajetória em bancos, financeiro, mobile e automação, com atuação em sistemas críticos, testes de APIs, validação de processos batch e sustentação de qualidade ponta a ponta.</p>
+      <ul>
+        <li>Banco e financeiro</li>
+        <li>Mobile e web</li>
+        <li>Automação e APIs</li>
+        <li>Sistemas críticos</li>
+      </ul>
+      <div class="hero-actions">
+        <a class="primary" href="#curriculo">Ver currículo</a>
+        <a class="secondary" href="CV_Monique_Leite_QA.docx" download>Baixar CV em DOCX</a>
+      </div>
+    </div>
     <div class="hero-links">
       <a href="https://github.com/moniqueleiteqa" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/monique-leite-qa/" target="_blank">LinkedIn</a>
@@ -178,7 +248,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="curriculo">
       <h2>Baixar currículo</h2>
       <p>Você pode baixar abaixo todos os documentos disponíveis no portfólio.</p>
       <p><small>O currículo profissional está em DOCX. Os demais arquivos são documentos acadêmicos e certificados separados.</small></p>
