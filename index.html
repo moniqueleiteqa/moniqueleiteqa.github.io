@@ -3,189 +3,173 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monique Leite | QA</title>
+  <meta name="description" content="Portfólio de Monique Leite, QA Engineer com foco em testes manuais, automação, API, mobile e qualidade de software.">
+  <title>Monique Leite | QA Engineer</title>
   <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #1f2a37;
+      --muted: #5f6b7a;
+      --accent: #0f6cbd;
+      --accent-dark: #0b4f86;
+      --border: #dce6f1;
+    }
+
+    * { box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
       margin: 0;
-      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
     }
     header {
-      background-color: #24292e;
+      background: linear-gradient(135deg, var(--accent-dark), var(--accent));
       color: white;
-      padding: 2rem;
+      padding: 3rem 1.5rem;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin: 0.5rem 0 0;
-    }
-    main {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
+    header h1 { margin: 0 0 0.5rem; font-size: 2.2rem; }
+    header p { margin: 0 auto 1rem; max-width: 760px; font-size: 1.05rem; opacity: 0.95; }
+    .hero-links a {
+      display: inline-block;
+      margin: 0.35rem;
+      padding: 0.7rem 1rem;
+      border-radius: 999px;
       background: white;
+      color: var(--accent-dark);
+      text-decoration: none;
+      font-weight: 700;
     }
+    main { max-width: 980px; margin: -1.2rem auto 2rem; padding: 0 1rem; }
     section {
-      margin-bottom: 2rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.3rem 1.4rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 8px 24px rgba(15, 108, 189, 0.06);
     }
-    h2 {
-      color: #007acc;
-      border-bottom: 2px solid #007acc;
-      padding-bottom: 0.5rem;
+    h2 { color: var(--accent); margin-top: 0; border-bottom: 2px solid #e4eef8; padding-bottom: 0.4rem; }
+    h3 { margin-bottom: 0.35rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.35rem; }
+    .badge-list { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; list-style: none; }
+    .badge-list li {
+      background: #eaf4ff;
+      color: var(--accent-dark);
+      padding: 0.45rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      margin: 0;
     }
-    ul {
-      padding-left: 1.5rem;
-    }
+    .project-links a { color: var(--accent); font-weight: 600; text-decoration: none; }
     footer {
       text-align: center;
-      padding: 1rem;
-      background-color: #eee;
-      font-size: 0.9rem;
-    }
-    .project-links a {
-      display: inline-block;
-      margin: 0.5rem 0;
-      color: #007acc;
-      text-decoration: none;
+      padding: 1.2rem;
+      color: var(--muted);
+      font-size: 0.95rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Monique Leite</h1>
-    <img src="fotomonique.jpeg" alt="Monique Leite" style="max-width: 180px; border-radius: 50%; margin: 1rem auto; display: block;">
-    <p>QA Manual Sênior | QA Automatizado Pleno | Cypress | JavaScript | API(Postman - Swagger) | Mobile | BDD | Banco Dados(Oracle e Sql Server)</p>
+    <p>QA Engineer | QA Analyst | Testes Manuais | Automação | API Testing | Mobile | Web | Banco de Dados | BDD | Jira | Scrum</p>
+    <div class="hero-links">
+      <a href="https://github.com/moniqueleiteqa" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/monique-leite-qa/" target="_blank">LinkedIn</a>
+    </div>
   </header>
 
   <main>
     <section>
-      <h2>Sobre Mim</h2>
-      <p>Sou Monique Leite, profissional de QA com mais de 6 anos de experiência garantindo a qualidade de produtos digitais em grandes empresas como Agile Inc, BRQ, Wipro e Keeggo. Atuo desde o planejamento até a execução de testes manuais e automatizados, com foco em jornadas críticas de negócio.
-
-Tenho experiência sólida em testes funcionais, mobile (Android/iOS), web e APIs REST, aliando visão analítica com prática técnica. Domino ferramentas como Cypress, Postman, JIRA, Oracle SQL e metodologias ágeis (Scrum/Kanban), sempre com foco em rastreabilidade, cobertura e eficiência.
-
-Acredito que QA vai além de encontrar bugs: é sobre entregar valor real, antecipar falhas e garantir que o produto funcione para quem realmente importa — o usuário.</p>
+      <h2>Sobre mim</h2>
+      <p>QA Engineer com experiência em qualidade de software atuando em grandes empresas dos segmentos bancário, financeiro e mobile.</p>
+      <p>Tenho experiência em testes manuais, testes automatizados, APIs REST, mobile Android/iOS, web, SQL Oracle, SQL Server, Cypress, Robot Framework, Postman, BDD, Jira, Git, Scrum e Kanban.</p>
+      <p>Ao longo da carreira, participei de projetos para Caixa Econômica Federal, Bradesco Cartões, Banco Next e Sem Parar, atuando desde a análise de requisitos até a entrega em produção, com foco em qualidade, prevenção de defeitos e melhoria contínua.</p>
     </section>
 
     <section>
-        <h2>Experiências Profissionais</h2>
+      <h2>Experiência profissional</h2>
+      <h3>Globalweb Corp — QA Engineer</h3>
+      <p><strong>dez/2022 – jun/2026</strong> | remoto</p>
+      <ul>
+        <li>Atuação em sistemas críticos e legados da Controladoria Financeira da Caixa.</li>
+        <li>Validação de processos batch, integrações entre sistemas legados e rotinas financeiras de missão crítica.</li>
+        <li>Testes funcionais, integração, regressão, smoke, exploratórios e baseados em risco.</li>
+        <li>Uso de Postman, Oracle, DBeaver, Control-M, Jira e análise de logs.</li>
+      </ul>
 
-        <h3>Agile Inc – Analista de QA Sênior (Mai/2022 – Abr/2025)</h3>
-        <ul>
-            <li>Cliente: SEM PARAR Empresas</li>
-            <li>Planejamento de testes regressivos, smoke, exploratórios e baseados em risco com BDD (Gherkin).</li>
-            <li>Redação e manutenção de cenários de testes em Gherkin.</li>
-            <li>Execução de testes funcionais mobile (Android/iOS) com múltiplos dispositivos.</li>
-            <li>Testes de integração com APIs REST utilizando Postman (payloads, headers, status HTTP).</li>
-            <li>Criação de massa dinâmica integrada aos fluxos internos da plataforma.</li>
-            <li>Consultas em Oracle/CBILL para validação e cruzamento de dados (clientes, etiquetas, veículos).</li>
-            <li>Gestão de defeitos via JIRA/Xray com rastreabilidade e priorização por impacto.</li>
-            <li>Participação ativa em todas as cerimônias Scrum.</li>
-            <li>Validação de regras de negócio, como adesão de TAG PJ (CNPJ, placas, centro de custo) e cobrança recorrente.</li>
-        </ul>
+      <h3>Agile Inc — QA Automation Engineer</h3>
+      <p><strong>mai/2020 – dez/2022</strong> | remoto</p>
+      <ul>
+        <li>Desenvolvimento e manutenção de suítes automatizadas Web e Mobile com Cypress e Robot Framework.</li>
+        <li>Automação de testes de API REST com Postman e integração em pipelines CI/CD.</li>
+        <li>Validação de regras de negócio em jornadas digitais Android, iOS e Web com BDD/Gherkin.</li>
+      </ul>
 
-    <h3>BRQ Digital Solutions – Analista de Testes Mobile (Mar/2020 – Mai/2022)</h3>
-    <ul>
-        <li>Cliente: Banco Next – Sistema mobile iOS/Android.</li>
-        <li>Testes de acessibilidade e componentes do Design System.</li>
-        <li>Execução de testes funcionais com dispositivos físicos e Mobile Center.</li>
-        <li>Participação em sprints Kanban.</li>
-        <li>Ferramentas: Jira, Confluence, Bitbucket, Nexus, SonarQube.</li>
-    </ul>
+      <h3>BRQ Digital Solutions — Mobile QA Engineer / QA Analyst</h3>
+      <p><strong>mar/2019 – mai/2020</strong> | remoto</p>
+      <ul>
+        <li>Testes manuais e funcionais em aplicações mobile Android e iOS.</li>
+        <li>Validação de APIs REST com Postman e uso de Mockoon para simulação de serviços.</li>
+        <li>Execução de testes regressivos, smoke, exploratórios e integração com Jira e Confluence.</li>
+      </ul>
 
-    <h3>BRQ Digital Solutions – Analista de Testes Web (Dez/2019 – Mar/2020)</h3>
-    <ul>
-        <li>Cliente: Bradesco Cartões – Sistema web.</li>
-        <li>Testes funcionais em fluxos como: autorizações, faturas, bloqueios.</li>
-        <li>Validação de regras bancárias: parcelamento, cashback, juros.</li>
-        <li>Ferramenta: HP ALM.</li>
-    </ul>
-
-    <h3>BRQ Digital Solutions – Analista de Testes Web (Set/2019 – Dez/2019)</h3>
-    <ul>
-        <li>Cliente: Bradesco – Sistema VEIC (Leilão de veículos).</li>
-        <li>Testes manuais em módulos de entrada, lances e fechamento de leilões.</li>
-        <li>Uso de HP ALM para testes e defeitos.</li>
-        <li>Metodologia Kanban.</li>
-    </ul>
-            <li>Cliente: Sistema VEIC – Leilão de veículos Bradesco.</li>
-            <li>Testes manuais em módulos de entrada, lances e fechamento de leilões.</li>
-            <li>Uso de HP ALM para testes e defeitos.</li>
-            <li>Metodologia Kanban.</li>
-        </ul>
-
-        <h3>Keeggo – Analista de Testes (Mai/2018 – Set/2019)</h3>
-        <ul>
-            <li>Cliente interno: Núcleo Bradesco – Simulação de agência bancária.</li>
-            <li>Testes funcionais e regressivos com periféricos (PINPad, impressoras).</li>
-            <li>Validação de transações bancárias e integração com SQL Server.</li>
-            <li>Utilização do ALM e metodologia Kanban.</li>
-        </ul>
-
-        <h3>Wipro – Analista de Teste (Nov/2017 – Abr/2018)</h3>
-        <ul>
-            <li>Cliente: Ágora Corretora (Bradesco).</li>
-            <li>Execução de testes manuais no sistema de corretagem.</li>
-            <li>Criação de cenários baseados em requisitos técnicos e funcionais.</li>
-            <li>Utilização de TFS e Scrum.</li>
-        </ul>
+      <h3>BRQ Digital Solutions — QA Analyst Web</h3>
+      <p><strong>set/2018 – mar/2019</strong> | presencial</p>
+      <ul>
+        <li>Atuação em projetos web com foco em validação de regras de negócio e garantia de qualidade.</li>
+        <li>Execução de testes funcionais, regressão e smoke em sistemas financeiros.</li>
+      </ul>
     </section>
 
-
     <section>
-  <h2>Habilidades Técnicas</h2>
-  <ul>
-    <li><strong>Automação de Testes:</strong> Cypress (Web e Mobile), JavaScript, BDD com Gherkin, estruturação de testes reutilizáveis</li>
-    <li><strong>Testes Manuais & Funcionais:</strong> Web, Mobile (Android/iOS), APIs REST, testes funcionais, regressão, exploratórios, acessibilidade, testes orientados à regra de negócio</li>
-    <li><strong>Testes de API & Integração:</strong> Postman (coleções, scripts), Swagger, validação de payloads e status HTTP</li>
-    <li><strong>Banco de Dados:</strong> Oracle DB, CBILL, consultas SQL para validação e massa de testes</li>
-    <li><strong>Ferramentas & Gestão de Qualidade:</strong> JIRA, Xray, Azure DevOps, ALM, Git/GitHub, Confluence, Bitbucket, Jenkins</li>
-    <li><strong>Metodologias & Práticas:</strong> Scrum, Kanban, versionamento com Git, participação em cerimônias ágeis</li>
-  </ul>
-</section>
+      <h2>Principais competências</h2>
+      <ul class="badge-list">
+        <li>Testes Manuais</li>
+        <li>Testes Automatizados</li>
+        <li>APIs REST</li>
+        <li>Mobile Android/iOS</li>
+        <li>Web</li>
+        <li>Oracle SQL</li>
+        <li>SQL Server</li>
+        <li>Cypress</li>
+        <li>Robot Framework</li>
+        <li>Postman</li>
+        <li>BDD</li>
+        <li>Jira</li>
+        <li>Git</li>
+        <li>Scrum</li>
+        <li>Kanban</li>
+      </ul>
+    </section>
 
     <section>
       <h2>Projetos no GitHub</h2>
       <div class="project-links">
-        <a href="https://github.com/moniqueleiteqa/meusprojetos-qa" target="_blank">📁 Repositório: meusprojetos-qa</a>
+        <p><a href="https://github.com/moniqueleiteqa/meusprojetos-qa" target="_blank">📁 Repositório: meusprojetos-qa</a></p>
+        <p>Projeto com automação de testes de login utilizando Cypress e JavaScript, com foco em validação de cenários críticos de autenticação.</p>
       </div>
     </section>
 
     <section>
-    <h2>Formação</h2>
-    <p><strong>Anhanguera Educacional</strong><br/>
-    Análise e Desenvolvimento de Sistemas (2017 - 2019)<br/>
-    <a href="https://github.com/moniqueleiteqa/moniqueleiteqa.github.io/blob/main/diploma%20monique.pdf" target="_blank">
-        Visualizar diploma (PDF)
-    </a>
-    </p>
-    </section>
-
-    <section>
-      <h2>Certificações</h2>
-      <ul>
-        <li>Automação de Testes - Iterasys</li>
-        <li>Formação Total em Scrum & Agile (5 em 1)</li>
-      </ul>
+      <h2>Formação e certificações</h2>
+      <p><strong>Anhanguera Educacional</strong> — Análise e Desenvolvimento de Sistemas (2017–2019)</p>
+      <p><strong>QAzando</strong> — Formação em Automação de Testes e QA moderno</p>
     </section>
 
     <section>
       <h2>Contato</h2>
       <p>Email: <a href="mailto:moniqueleiteqa@gmail.com">moniqueleiteqa@gmail.com</a><br>
-      LinkedIn: <a href="https://www.linkedin.com/in/monique-leite-qa/" target="_blank">linkedin.com/in/monique-leite-qa</a></p>
+      LinkedIn: <a href="https://www.linkedin.com/in/monique-leite-qa/" target="_blank">https://www.linkedin.com/in/monique-leite-qa/</a></p>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 Monique Leite - Todos os direitos reservados
+    © 2026 Monique Leite — Portfólio QA
   </footer>
 </body>
 </html>
