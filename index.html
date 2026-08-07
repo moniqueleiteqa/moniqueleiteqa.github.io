@@ -67,12 +67,13 @@
     .project-links a { color: var(--accent); font-weight: 600; text-decoration: none; }
     .download-links {
       display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
+      flex-direction: column;
+      gap: 0.7rem;
       margin-top: 0.75rem;
     }
     .download-links a {
-      display: inline-block;
+      display: block;
+      width: fit-content;
       padding: 0.7rem 1rem;
       background: var(--accent);
       color: white;
@@ -182,7 +183,9 @@
       <p>Você pode baixar abaixo todos os documentos disponíveis no portfólio.</p>
       <p><small>O currículo profissional está em DOCX. Os demais arquivos são documentos acadêmicos e certificados separados.</small></p>
       <div class="download-links">
+        <strong>Currículo profissional</strong>
         <a href="CV_Monique_Leite_QA.docx" download>📄 CV_Monique_Leite_QA.docx</a>
+        <strong>Documentos acadêmicos</strong>
         <a href="atestado de conclusao graduacao.pdf" download>📄 atestado de conclusao graduacao.pdf</a>
         <a href="CertificadoAceiteDigitalColacaoGrau.pdf" download>📄 CertificadoAceiteDigitalColacaoGrau.pdf</a>
         <a href="diploma digital monique graduacao.pdf" download>📄 diploma digital monique graduacao.pdf</a>
